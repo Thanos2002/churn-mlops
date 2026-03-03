@@ -29,7 +29,12 @@ jobs:
         run: ruff check src/ service/
 
       - name: Run tests
+        env:
+          MLFLOW_TRACKING_URI: mlruns
+          MODEL_NAME: churn-champion
+          MODEL_ALIAS: champion
         run: pytest tests/ -v
+
 
       - name: Build Docker image
         run: docker build -t churn-api .
