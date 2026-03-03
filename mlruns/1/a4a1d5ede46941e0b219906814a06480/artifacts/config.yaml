@@ -1,0 +1,19 @@
+data:
+  path: data/WA_Fn-UseC_-Telco-Customer-Churn.xls
+  test_size: 0.2
+  target_column: Churn
+
+models:
+  RF:
+    n_estimators: 200
+    max_depth: 10
+    random_state: 42
+    class_weight: balanced
+  GBC:
+    n_estimators: 200
+    max_depth: 5
+    random_state: 42
+
+mlflow:
+  experiment_name: telco-churn
+  run_name: model_comparison
