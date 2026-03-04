@@ -1,6 +1,12 @@
-# 📊 Churn Prediction MLOps
+# 📊 Churn Prediction MLOps 
+[![CI](https://github.com/Thanos2002/churn-mlops/actions/workflows/ci.yml/badge.svg)](https://github.com/Thanos2002/churn-mlops/actions/workflows/ci.yml)
+![Python](https://img.shields.io/badge/python-3.11-blue)
+![MLflow](https://img.shields.io/badge/MLflow-tracking-blue?logo=mlflow)
+![FastAPI](https://img.shields.io/badge/FastAPI-serving-009688?logo=fastapi)
+![Docker](https://img.shields.io/badge/Docker-containerized-2496ED?logo=docker)
+![License](https://img.shields.io/badge/license-MIT-green)
 
-**An end-to-end production-grade ML service**
+ **An end-to-end production-grade ML service**
 
  >   Predicting customer churn is vital for retention. This project isn't just about the model. It's about the lifecycle. 
  >   It features a robust pipeline for experiment tracking, automated deployment, and scalable serving.
